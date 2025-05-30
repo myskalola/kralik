@@ -1,0 +1,75 @@
+header {
+  width: 100%;
+  height: 100%;
+  background-color: #52bad5;
+  border-bottom: 1px solid #2c9ab7;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-image: linear-gradient(
+    90deg,
+    rgb(4, 216, 235),
+    #2d82ea7a,
+    rgb(39, 135, 244),
+    rgb(30, 147, 237)
+  );
+}
+
+#img1 {
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.btn {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  align-content: center;
+}
+
+.btn:hover .btn-slide-show-text1 {
+  margin-left: 65px;
+}
+
+.btn-moving-gradient {
+  height: 65px;
+  width: 250px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(2, 4, 82);
+  cursor: pointer;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 30px;
+}
+
+.btn-moving-gradient:hover {
+  transition: 0.5s ease-in-out;
+  background-position: 100% 0px;
+}
+
+.btn-moving-gradient--blue {
+  background-image: linear-gradient(
+    90deg,
+    rgb(34, 236, 189),
+    rgb(117, 229, 216),
+    rgb(250, 187, 0),
+    rgb(247, 144, 0)
+  );
+  box-shadow: rgb(124, 124, 131) 0px 4px 15px 0px;
+}
+
+.s1 {
+  display: block;
+  justify-self: center;
+  width: 850px;
+  height: 100px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
